@@ -1,0 +1,38 @@
+form .ng-dirty.ng-invalid{
+    border: 3px solid #FD0000;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #364150;
+}
+#page {
+    padding-top: 20px;
+    height: 1024px;
+    width: 720px;
+    margin: auto;
+    background-color: #fffcf6;
+}
+#strip {
+    height: 20px;
+    width: 100%;
+    background-color: #28303B;
+}
+#nav {
+    height: 60px;
+    width: 150px;
+}
+#nav li {
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+#view {
+    height: 100%;
+    width: 600px;
+    margin: auto;
+    padding: 25px;
+}
+#submit a {
+    text-decoration: none;
+}

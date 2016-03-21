@@ -1,0 +1,25 @@
+<h3>User list</h3>
+<table class="table" ng-controller="userList">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Action</th>
+    </tr>
+
+    <tr ng-repeat="task in tasks">
+        <div id="list-table">
+            <td>{{ task.id }}</td>
+            <td>{{ task.name }}</td>
+            <td>{{ task.phone }}</td>
+            <td>{{ task.email }}</td>
+            <td>
+                <div id="action-button">
+                    <button ng-click="editUser(task.id)" class="btn btn-warning">Edit</button>
+                </div>
+            </td>
+        </div>
+    </tr>
+
+</table>
