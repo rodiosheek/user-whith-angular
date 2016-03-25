@@ -8,7 +8,7 @@
         <th>Action</th>
     </tr>
 
-    <tr ng-repeat="task in tasks">
+    <tr ng-repeat="task in tasks track by $index">
         <div id="list-table">
             <td>{{ task.id }}</td>
             <td>{{ task.name }}</td>
