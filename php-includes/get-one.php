@@ -1,5 +1,4 @@
 <?php
-require_once('./db-connect/Connect.php');
 
 $id = json_decode(file_get_contents('php://input'), true);
 
